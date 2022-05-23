@@ -53,11 +53,11 @@ $ dotnet run
 ````
 
 ## Situação do Projeto
-O projeto teve que ser feito em poucos dias (3 na verdade), e eu pretendo continuar trabalhando nele, quem estiver aprendendo, sinta-se a vontade de clona-lo e se quiser sugerir melhorias.
+O projeto teve que ser feito em poucos dias (3 na verdade), e eu pretendo continuar trabalhando nele. Quem estiver aprendendo e quiser constribuir, sinta-se a vontade para clona-lo em sua máquina e sugerir melhorias.
 
 
 ## Pontos de Melhoria
-A intenção é que se possa melhorá-lo de diversas formas:
+O intuito com esse projeto é melhorar minhas habilidaes como programador e que eu possa melhorá-lo de diversas formas:
 - Complementação da API com outros verbos (PUT/PATCH/DELETE)
 - Implementação de hipermídia (HATEOAS)
 - Acesso a outros bancos de dados como MySQL, SQLServer...
