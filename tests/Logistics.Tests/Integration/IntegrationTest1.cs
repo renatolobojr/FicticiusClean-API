@@ -1,8 +1,8 @@
 using Xunit;
 
-namespace Logistics.Tests.Unit
+namespace Logistics.Tests.Integration
 {
-    public class UnitTest2
+    public class IntegrationTest1
     {
         [Fact]
         public void Test1()

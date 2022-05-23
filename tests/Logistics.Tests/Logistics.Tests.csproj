@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Integration\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\src\Logistics.Core\Logistics.Core.csproj" />
     <ProjectReference Include="..\..\src\Logistics.WebApi\Logistics.WebApi.csproj" />
   </ItemGroup>
