@@ -24,9 +24,9 @@ Uma API desnvolvida em .NET 6 procurando seguir as melhores práticas, padrões 
 
 ## Recursos
 Os Recursos Disponíveis para consumo são:
-- /veículo ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos){:target="_blank"} e POST)
-- /Veiculo/:id ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos/82987a44-e428-4901-8dd3-d837a9ccf947){:target="_blank"})
-- /veículo/consumo ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos/consumo?FuelPrice=7.50&DistanceCity=8&DistanceRoad=120){:target="_blank"})
+- /veículo ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos) e POST)
+- /Veiculo/:id ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos/82987a44-e428-4901-8dd3-d837a9ccf947)
+- /veículo/consumo ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos/consumo?FuelPrice=7.50&DistanceCity=8&DistanceRoad=120))
 
 
 ## Tecnologias Utilisadas
