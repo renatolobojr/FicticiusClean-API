@@ -1,11 +1,11 @@
 # Ficticius Clean API Logistics
-> Uma API que auxilia na previsao de gastos através do cálculo de consumo de combustível de veículos cadastrados.
-> Hospeda na Azure. Para testes clicar [_aqui_](https://ficticius-clean.azurewebsites.net/swagger/index.html).
+> Uma API que auxilia na previsão de gastos através do cálculo de consumo de combustível de veículos cadastrados.
+> Hospedada no Azure. Para consulta do swagger e testes, favor clicar <a href="https://ficticius-clean.azurewebsites.net/swagger/index.html" target="_blank" rel="noopener"> aqui </a>
 
 
 ## Sumário
 * [Informações Gerais](#informações-gerais)
-* [Tecnologias Usadas](#tecnologias-usadas)
+* [Tecnologias Utilisadas](#tecnologias-utilisadas)
 * [Recursos](#recursos)
 * [Instalação](#instalação)
 * [Situação do Projeto](#situação-do-projeto)
@@ -14,22 +14,22 @@
 
 
 ## Informações Gerais
-Uma API desnvolvida em .NET 6 procurando seguir as melhores práticas e padrões de projeto e os princípios do SOLID. Alguns objetivos no desnvolvimento foram construir:
+Uma API desnvolvida em .NET 6 procurando seguir as melhores práticas, padrões de projeto e os princípios do SOLID. Alguns objetivos no desnvolvimento foram construir:
 - API RESTful
 - Com versionamento
 - Uso de DLLs
-- Orientado em Domínio (DDD)
+- Orientado no Domínio (DDD)
 - Utilizando testes de unidade (TDD)
 
 
 ## Recursos
 Os Recursos Disponíveis para consumo são:
-- /veículo (GET e POST)
-- /Veiculo/:id (GET)
-- /veículo/consumo (GET)
+- /veículo ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos){:target="_blank"} e POST)
+- /Veiculo/:id ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos/82987a44-e428-4901-8dd3-d837a9ccf947){:target="_blank"})
+- /veículo/consumo ([GET](https://ficticius-clean.azurewebsites.net/v1/veiculos/consumo?FuelPrice=7.50&DistanceCity=8&DistanceRoad=120){:target="_blank"})
 
 
-## Tecnologias Usadas
+## Tecnologias Utilisadas
 - ASP.NET 6
 - Entity framework
 - SQLite
